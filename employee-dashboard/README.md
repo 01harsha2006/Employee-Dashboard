@@ -1,16 +1,31 @@
-# React + Vite
+# 🏢 Employee Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A clean, responsive, and minimal Employee Dashboard web application built with **React**, **Vite**, and **React Router**. Developed as part of the **ICT Academy of Kerala (ICTAK)** Full Stack Development program (Assignment 2).
 
-Currently, two official plugins are available:
+[![React](https://img.shields.io/badge/React-19.3-blue.svg)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-8.3-646CFF.svg)](https://vitejs.dev/)
+[![React Router](https://img.shields.io/badge/React_Router-v7-CA4245.svg)](https://reactrouter.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📌 Features
+- **Navbar**: Home and Employee Form navigation with active states.
+- **Home / Dashboard**: Fetches user data from [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users) and displays ID, Name, and Email in a clean table.
+- **Employee Form**: Form to enter Name, Designation, Location, and Salary.
+- **Client State**: Displays newly added employees directly on the dashboard.
+- **Minimal Design**: Clean, responsive layout in custom CSS with `#243b64` header and cards.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🚀 Quick Start
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+# Install dependencies
+npm install
+
+# Start local development server
+npm run dev
+
+# Build for production
+npm run build
+```
